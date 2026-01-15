@@ -63,6 +63,7 @@ public abstract class CustomListAdapter extends ArrayAdapter<Product> {
         });
 
         return convertView;
+        
     }
 
     abstract public void onClickonProduct(Product product);
